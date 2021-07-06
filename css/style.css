@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    height: 225vh;
+    width: 80vw;
+    margin-left: 20vh;
+}
+
+.square{
+    height: 75vh;
+    position: relative;
+}
+
+.s-red{
+    background-color: red;
+}
+
+.s-green{
+    background-color: green;
+}
+
+.s-yellow{
+    background-color: yellow;
+}
+
+.image-shoes{
+    height: 300px;
+    width: 400px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+div.title-shoes h1{
+    text-transform: uppercase;
+    width: 280px;
+    position: absolute;
+    bottom: 8%;
+    left: 35%;
+    text-align: center;  
+}
+
+div.title-shoes.t-yellow h1{
+    color: yellow;
+}
+
+div.title-shoes.t-green h1{
+    color: green;
+}
+
+li{
+    display: inline-block;
+    background-color: white;
+    border-radius: 50%;
+    padding: 5px 5px;
+}
+
+.related-shoes{
+    position: absolute;
+    left: 85%;
+    top: 10%;
+    word-spacing: 25px;
+}
